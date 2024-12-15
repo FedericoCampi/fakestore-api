@@ -17,7 +17,7 @@ dotenv.config();
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
       autoLoadEntities: true,
-      synchronize: true, // Usar solo en desarrollo
+      synchronize: true,
     }),
     ProductsModule
   ],
