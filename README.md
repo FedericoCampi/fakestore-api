@@ -36,14 +36,14 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 
 2. Agregar al .env
 
-  ```bash
-  DB_HOST_DOCKER=db
-  DB_HOST=localhost
-  DB_PORT=5432
-  DB_USER=postgres
-  DB_PASSWORD=tu_contraseña
-  DB_NAME=fakestore
-  PORT=5000
+   ```bash
+   DB_HOST_DOCKER=db
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_USER=postgres
+   DB_PASSWORD=tu_contraseña
+   DB_NAME=fakestore
+   PORT=5000
 
 3. Levantar entorno desarrollo
 
