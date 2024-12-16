@@ -36,6 +36,7 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 
 2. Agregar al .env
 
+  ```bash
   DB_HOST_DOCKER=db
   DB_HOST=localhost
   DB_PORT=5432
@@ -50,17 +51,17 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 
 ---
 
-## Levantar contenedores
+# Levantar contenedores
 
   docker-compose up --build
 
 ---
 
-## Swagger (Documentación de la API)
+# Swagger (Documentación de la API)
 Visita **http://localhost:3000/api** para acceder a la documentación interactiva generada con Swagger.
 
 ---
 
-## Ejecutar pruebas unitarias
+# Ejecutar pruebas unitarias
 
   npm run test
