@@ -53,9 +53,8 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 ---
 
 # Levantar contenedores
-
-   ```bash
-   docker-compose up --build
+ 
+**docker-compose up --build**
 
 ---
 
