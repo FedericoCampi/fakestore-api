@@ -47,13 +47,15 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 
 3. Levantar entorno desarrollo
 
+     ```bash
      npm run start:dev
 
 ---
 
 # Levantar contenedores
 
-  docker-compose up --build
+   ```bash
+   docker-compose up --build
 
 ---
 
