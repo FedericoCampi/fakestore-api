@@ -47,7 +47,7 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 
 3. Levantar entorno desarrollo
 
-  npm run start:dev
+     npm run start:dev
 
 ---
 
