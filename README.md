@@ -53,16 +53,16 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 ---
 
 # Levantar contenedores
- 
-**docker-compose up --build**
+
+   **docker-compose up --build**
 
 ---
 
 # Swagger (Documentación de la API)
-Visita **http://localhost:3000/api** para acceder a la documentación interactiva generada con Swagger.
+Visita **http://localhost:5000/api** para acceder a la documentación interactiva generada con Swagger.
 
 ---
 
 # Ejecutar pruebas unitarias
 
-  npm run test
+  **npm run test**
