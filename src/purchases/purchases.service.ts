@@ -10,11 +10,12 @@ export class PurchasesService {
     private readonly purchaseRepository: Repository<Purchase>,
   ) {}
 
-  async createPurchase(productId: number, quantity: number, totalPrice: number): Promise<Purchase> {
+  async createPurchase(productId: number, quantity: number, totalPrice: number, name: string): Promise<Purchase> {
     const newPurchase = this.purchaseRepository.create({
       productId,
       quantity,
       totalPrice,
+      name
     });
     return await this.purchaseRepository.save(newPurchase);
   }

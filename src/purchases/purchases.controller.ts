@@ -7,9 +7,9 @@ export class PurchasesController {
 
   @Post()
   async addPurchase(
-    @Body() body: { productId: number; quantity: number; totalPrice: number },
+    @Body() body: { productId: number; quantity: number; name: string; totalPrice: number },
   ) {
-    const { productId, quantity, totalPrice } = body;
-    return this.purchasesService.createPurchase(productId, quantity, totalPrice);
+    const { productId, quantity, totalPrice, name } = body;
+    return this.purchasesService.createPurchase(productId, quantity, totalPrice, name);
   }
 }

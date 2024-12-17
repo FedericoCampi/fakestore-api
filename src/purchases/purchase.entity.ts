@@ -11,6 +11,9 @@ export class Purchase {
   @Column()
   quantity: number;
 
+  @Column()
+  name: string;
+
   @Column('decimal')
   totalPrice: number;
 
