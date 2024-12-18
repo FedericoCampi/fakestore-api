@@ -6,20 +6,20 @@ export class Product {
   id: number;
 
   @Column()
-  title: string;
+  title?: string;
 
   @Column('decimal')
-  price: number;
-
-  @Column()
-  description: string;
-
-  @Column()
-  category: string;
-
-  @Column()
-  image: string;
+  price?: number;
 
   @Column('int')
-  stock: number;
+  stock?: number;
+
+  @Column()
+  description?: string;
+
+  @Column()
+  category?: string;
+
+  @Column()
+  image?: string;
 }

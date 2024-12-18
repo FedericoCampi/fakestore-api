@@ -18,5 +18,5 @@ export class Purchase {
   totalPrice: number;
 
   @CreateDateColumn()
-  createdAt: Date;
+  createdAt?: Date;
 }
