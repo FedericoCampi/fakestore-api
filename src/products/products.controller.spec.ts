@@ -35,7 +35,7 @@ describe('ProductsController', () => {
   describe('getProductById', () => {
     it('should call service.getProductById and return the result', async () => {
       const productId = 1;
-      const mockProduct = { id: productId, name: 'Product A', stock: 10 };
+      const mockProduct = { id: productId, title: 'Product A', stock: 10 };
       jest.spyOn(service, 'getProductById').mockResolvedValue(mockProduct);
 
       const result = await controller.getProductById(productId);

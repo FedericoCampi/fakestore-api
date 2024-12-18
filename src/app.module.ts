@@ -19,6 +19,8 @@ dotenv.config();
       database: process.env.DB_NAME,
       autoLoadEntities: true,
       synchronize: true,
+      retryAttempts: 10,  // Aumenta a 10 intentos
+      retryDelay: 5000,   // Espera 5 segundos entre cada intento
     }),
     ProductsModule,
     PurchasesModule

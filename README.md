@@ -52,9 +52,13 @@ Una API RESTful desarrollada con **NestJS** y **PostgreSQL** que consume datos d
 
 ---
 
-# Levantar contenedores
+# Levantar contenedores Docker
 
    **docker-compose up --build**
+
+Testear endpoint:
+
+   **http://localhost:5000/products**
 
 ---
 
